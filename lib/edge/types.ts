@@ -5,7 +5,7 @@ import type {
 import type { Context } from "https://edge.netlify.com/";
 export interface AppConfig {
   // The maximum number of message in the history to send to the API
-  historyLength: number;
+  historyLength: 1;
 
   // The maximum length of each message sent to the API
   maxMessageLength: number;
