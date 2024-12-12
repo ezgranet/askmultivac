@@ -10,11 +10,11 @@ export const appConfig: AppConfig = {
 
   // The maximum number of message in the history to send to the API
   // You should also set this in the config.browser.ts file.
-  historyLength: 8,
+  historyLength: 1,
 
   // The maximum length in characters of each message sent to the API
   // You should also set this in the config.browser.ts file.
-  maxMessageLength: 1000,
+  maxMessageLength: 280,
 
   // The config values sent to the OpenAI API
   // See https://platform.openai.com/docs/api-reference/chat/create
